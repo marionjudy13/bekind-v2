@@ -19,6 +19,7 @@ export default function NewsAndEventsSection({
   return (
     <section className="bg-paleGreen padding" id="newsAndEvents">
       <h2 className="h2 text-darkGreen mb-14 lg:mb-20">News &amp; Events</h2>
+      <p>testing deploy</p>
       <div className="maxWidth flex flex-wrap justify-center  md:justify-between">
         {newsAndEvents.map((event) => (
           <div key={event._id} className="card">
