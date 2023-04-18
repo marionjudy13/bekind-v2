@@ -36,6 +36,7 @@ export default function Home({ aboutContent, newsAndEvents }: Props) {
       <Donate />
       {/* Contact Us */}
       <Contact />
+      testing
       {/* Footer */}
       <Footer />
     </>
